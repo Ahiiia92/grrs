@@ -3,7 +3,13 @@ name = "grrs"
 version = "0.1.0"
 edition = "2021"
 authors = ["Ahiiia92"]
-description = "A simple implementation of grep in Rust"
+description = "A simple implementation of grep in Rust. A tool to search files"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/Ahiiia92/grrs"
+repository = "https://github.com/Ahiiia92/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }

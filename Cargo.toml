@@ -1,0 +1,16 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ahiiia92"]
+description = "A simple implementation of grep in Rust"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+indicatif = "0.17.8"
+proc-macro2 = "1.0.84"
+
+[dev-dependencies]
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+assert_fs = "1.1.1"

@@ -13,7 +13,6 @@ categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
-indicatif = "0.17.8"
 proc-macro2 = "1.0.84"
 
 [dev-dependencies]
